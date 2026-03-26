@@ -3,11 +3,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
-
 # App Title
 st.title("📊 Sales Forecasting App")
 st.write("Predict future sales using Machine Learning model (No pickle file)")
-
+st.write("Sklearn installed successfully!")
 # ------------------------------
 # Create Dummy Training Data
 # ------------------------------
